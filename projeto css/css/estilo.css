@@ -1,0 +1,136 @@
+body{
+    font-family: sans-serif;
+    background-color: gainsboro;
+    margin: 0;
+}
+
+.topo{
+    background-image: url(../imagens/bg-1novo.jpg);
+    background-size: cover;
+    background-position: right top;
+    height: 700px;
+    padding: 10px;
+    border-bottom: rgba(255, 255, 255, 0.4) 3px solid;
+    
+}
+
+.topo nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 11px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    background-color: rgba(71, 71, 71, 0.3);
+}
+
+.topo a:hover{
+    background-color: rgba(71, 71, 71, 0.6);
+}
+
+.topo nav ul{
+    text-align: right;
+    margin-right: 15px;
+}
+
+.topo nav li{
+    display: inline-block;
+    list-style: none;
+    border: solid white 2px;
+    text-transform: uppercase;
+    margin: 5px;
+    
+}
+
+.topo-conteudo h1, h3{
+    text-align: center;
+    margin-top: 200px;
+    color: rgb(226, 224, 224);
+
+
+}
+
+.topo-conteudo h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 3px 2px 5px rgb(54, 54, 54);
+}
+
+.topo-conteudo h3{
+    background-color: rgba(71, 70, 70, 0.5);
+    border-bottom: ridge white 3px;
+    width: 350px;
+    height: 22px;
+    padding: 15px;
+    margin: auto;
+
+}
+
+main{
+    width: 60%;
+    margin: auto;
+
+}
+
+.card{
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+    padding: 5px 30px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.section-conteudo{
+    background-color: white;
+    padding: 15px;
+    margin-top: 30px;
+    overflow: auto;
+}
+
+.texto{
+    text-align: justify;
+}
+
+.cards{
+    padding: 35px;
+    }
+
+.card-1, .card-2{
+    margin-right: 2%;
+    
+}
+
+.card p{
+    background-color: rgb(92, 91, 91);
+    margin: 0;
+    height: 40px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+
+
+.section-conteudo h2{
+    background-color: rgb(202, 199, 199);
+    border-bottom: ridge rgb(163, 162, 162) 5px;
+    height: 25px;
+    padding: 15px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(168, 168, 168);
+    color: white;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    text-shadow: 2px 1px 3px black;
+}
+
