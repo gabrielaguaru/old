@@ -229,4 +229,5 @@ footer{
 
 .voltar a:hover, .voltarquadrinhos a:hover {
     color: red;
+    transition: 0.3s;
 }
