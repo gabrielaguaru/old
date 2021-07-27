@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>teste de tabelas no HTML</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Gabriela Souza">
+        <meta name="description" content="tabelas no HTML">
+        <meta name="keywords" content="tabela, html, css, dev junior">
+
+        <style>
+
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            td{
+                border: 1px palevioletred solid;
+                padding: 8px;
+                background-color: black;
+                color: white;
+                
+            }
+
+            th{
+                font-size: 18px;
+                color: black;
+                background-color: rgb(216, 157, 177);
+                border: black 1px ridge;
+                padding: 10px;
+            }
+
+            table{
+                border-collapse: collapse;
+                margin: auto;
+                width: 40%;
+                text-align: center;
+            }
+
+            caption{
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 11px;
+                letter-spacing: 1px;
+                margin: 12px 0 14px 0; 
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <table>
+            
+            <caption>Tabela de preço de cursos</caption>
+
+            <thead>
+                <tr>
+                    <th>Área</th>
+                    <th>Curso</th>
+                    <th>Investimento</th>
+                </tr>
+            </thead>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">Valores sujeitos a alteração sem prévio aviso</td>
+                </tr>
+            </tfoot>
+
+            <tbody>
+                <tr>
+                    <td rowspan="3">Design</td>
+                    <td>InDesign</td>
+                    <td>R$1.000,00</td>
+                </tr>
+                <tr>
+                    <td>Photoshop</td>
+                    <td>R$1.000,00</td>
+                </tr>
+                <tr>
+                    <td>Illustrator</td>
+                    <td>R$1.000,00</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Development</td>
+                    <td>HTML</td>
+                    <td>R$1.000,00</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>R$1.000,00</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>R$1.000,00</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>R$1.000,00</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </body>
+
+
+</html>

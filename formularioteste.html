@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gabriela Souza">
+    <meta name="description" content="página teste de formulário desenvolvida por uma iniciante na área de frontend">
+    <meta name="keywords" content="formularios, formulario, html, css, iniciante, ti">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Formulários</title>
+
+    <style>
+        body{
+            width: 10%;
+            margin: 50px auto 0;
+            font-family: 'Roboto', arial;
+            
+        }
+
+        #log, #pass, #pesquisa, .botao {
+            display: block;
+            padding: 3px;
+
+        }
+
+        .botao{
+            margin-top: 10px;
+        }
+
+        #log, #pass, #pesquisa{
+            margin-top: 3px;
+          
+            border: 1px solid rgb(243, 0, 182);
+        }
+
+        #log:focus, #pass:focus, #pesquisa:focus{
+            margin-top: 3px;
+            background-color: rgb(228, 206, 231);
+            border: none;
+        }
+
+        #log{
+            margin-bottom: 5px;
+        }
+
+        fieldset{
+            background-color: rgb(224, 210, 238);
+        }
+
+        legend{
+            font-weight: bold;
+            background-color: black;
+            color: rgb(243, 0, 182);
+            display: inline-block;
+            padding: 5px;
+            text-align: center;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border: 1px white solid;
+        }
+
+        .botao{
+            background: rgb(0, 0, 0);
+            color: white;
+            border: none;
+            padding: 6px;
+            margin: 10px auto 0;
+            box-shadow: 2px 2px 2px rgba(97, 20, 173, 0.3 );
+            text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+
+        }
+
+        input, fieldset{
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px rgba(97, 20, 173, .2 );
+        }
+
+        .botao:hover{
+            background: #ccbbff;
+            box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <form action="#" method="POST" class="formlogin">
+        <fieldset>
+            <legend>Login no site</legend>
+            <label for="log">Usuário</label>
+            <input type="text" name="text" id="log">
+            <label for="pass">Senha</label>
+            <input type="password" name="pass" id="pass">
+            <input type="submit" value="Enviar" class="botao">
+        </fieldset>
+        
+
+    </form>
+    <br><br>
+
+    <form action="http://google.com/search" method="get" target="_blank" class="google">
+        <fieldset>
+            <legend>Tire suas dúvidas</legend>
+            <label for="pesquisa">Pesquisar</label>
+            <input type="text" name="q" id="pesquisa">
+            <input type="submit" value="Descobrir" class="botao">
+        </fieldset>
+    
+    
+    </form>
+    
+
+
+
+
+</body>
+
+</html>
