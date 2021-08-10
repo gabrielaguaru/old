@@ -1,0 +1,127 @@
+body{
+    width: 30%;
+    margin: auto;
+    background-color: rgb(230, 241, 245);
+    color: rgb(97, 41, 134);
+    
+}
+
+form{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.topo{
+    font-family: 'poppins', arial;
+    color: rgb(97, 41, 134);
+    text-align: center;
+}
+
+.topo h1{
+    margin-top: 24px;
+    font-size: 33px;
+}
+
+.topo p{
+    margin: 0;
+    position: relative;
+    bottom: 21px;
+    font-size: 18px;
+}
+
+fieldset{
+    border: none;
+}
+
+textarea{
+    resize: none;
+    width: 500px
+}
+
+.campo input[type="text"], .campo input[type="email"], select, textarea{
+    display: block;
+    
+}
+
+fieldset .campo{
+    float: left;
+}
+.campo input[type="text"]:focus, .campo input[type="email"]:focus, textarea:focus, select:focus{
+    background-color: rgb(245, 223, 241);
+}
+.tecnologias, .app{
+    display: block;
+}
+
+.campo{
+    margin: 0px 15px;
+}
+
+input[type="text"], input[type="email"]{
+    padding: 6px;
+    width: 220px;
+    border-radius: 6px;
+    border: solid rgb(71, 8, 80) 1px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+  
+input[type="email"]{
+    margin-bottom: 10px;
+}
+
+.front, .back, .full{
+    display: block;
+    line-height: 25px;
+}
+
+.front{
+    margin-top: 10px;
+}
+
+#senioridade, textarea{
+    border-radius: 6px;
+    border: solid rgb(71, 8, 80) 1px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+#senioridade{
+    height: 29px;
+    margin: 0;
+    margin: 3px 0 0 0;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+#botao{
+    display: block;
+    margin: 10px auto 0;
+    padding: 8px;
+    width: 110px;
+    font-family: 'poppins', arial;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(97, 41, 134);
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+    border: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.9);
+    font-size: 12px;
+}
+
+#botao:hover{
+    background-color: rgb(204, 130, 238);
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,.5);
+}
+
+select{
+    width: 90px;
+}
+
+.campo input[type="checkbox"]{
+    margin: 8px 5px;
+}
+

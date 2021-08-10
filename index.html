@@ -1,131 +1,167 @@
 <!DOCTYPE html>
 <html lang=pt-br>
+
 <head>
 	<meta charset="utf-8">
 	<title>Gabriela Souza</title>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
 
-<style>
-	body{
-		background-color: black;
-		color: white;
-		font-family: 'roboto', arial;
-		margin: 0;
-	}
+	<style>
+		body {
+			background-color: black;
+			color: white;
+			font-family: 'roboto', arial;
+			margin: 0;
+		}
 
-	.topo{
-		background-image: url(./palmeira.jpg);
-		background-size: cover;
-		height: 500px;
-		border-top: 1px black solid;
-	}
+		.topo {
+			background-image: linear-gradient(to top, rgba(0, 0, 0, .8), transparent), url(./palmeira.jpg);
+			background-size: cover;
+			height: 500px;
+			border-top: 1px black solid;
+		}
 
-	h1{
-		letter-spacing: 9px;
-		text-transform: uppercase;
-		text-align: center;
-		margin-top: 230px;
-		color: rgb(255, 255, 255);
-		font-size: 50px;
-		text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-		margin-bottom: 0;
-	}
+		h1 {
+			letter-spacing: 9px;
+			text-transform: uppercase;
+			text-align: center;
+			margin-top: 230px;
+			color: rgb(255, 255, 255);
+			font-size: 50px;
+			text-shadow: -1px 1px 0 black, -2px 2px 0 rgb(20, 20, 20), -3px 3px 0 rgb(40, 40, 40);
+			margin-bottom: 0;
+		}
 
-	.topo p{
-		text-align: center;
-		color: rgb(172, 202, 214);
-		letter-spacing: 3px;
-		text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
-		background: rgba(17, 39, 20, 0.3);
-		width: 15%;
-		padding: 12px 10px;
-		margin: 10px auto 0;
-	}
-	
-	.corpo{
-		width: 50%;
-		border: rgb(172, 202, 214) 2px ridge;
-		margin: 60px auto 60px;
-		height: 430px;
-		padding: 50px;
-		box-sizing: border-box;
-	}
+		.topo p {
+			text-align: center;
+			color: rgba(172, 202, 214, .7);
+			letter-spacing: 3px;
+			text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
+			font-size: 20px;
+			padding: 0px 10px;
+			margin: 10px auto 0;
+			font-family: 'Pacifico', cursive;
+			position: relative;
+			bottom: 28px;
+		}
 
-	a{
-		color: rgb(87, 115, 126);
-		text-decoration: none;
-	}
+		.corpo {
+			width: 50%;
+			border: rgb(172, 202, 214) 2px ridge;
+			margin: 60px auto 60px;
+			height: 30%;
+			padding: 50px;
+			box-sizing: border-box;
+		}
 
-	a:hover{
-		color: white;
-		transition: color 0.3s linear;
-		
-	}
+		a {
+			color: rgb(87, 115, 126);
+			text-decoration: none;
+		}
 
-	td{
-		border: 1px white solid;
-		padding: 13px;
-		
-	}
+		a:hover {
+			color: white;
+			transition: color 0.3s linear;
 
-	table{
-		border-collapse: collapse;
-		margin: auto;
-		
-	}
+		}
 
-	caption{
-		text-transform: uppercase;
-		letter-spacing: 2px;
-		font-size: 15px;
-		margin-bottom: 10px;
-		color: rgb(172, 202, 214);
-	}
-</style>
+		td {
+			padding: 13px;
+			border-bottom: 2px rgb(172, 202, 214) solid;
+
+		}
+
+		table {
+			border-collapse: collapse;
+			margin: auto;
+			
+		}
+
+		.caption {
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-size: 15px;
+			padding: 13px;
+			color: rgb(172, 202, 214);
+			border-bottom: 4px rgb(172, 202, 214) ridge;
+			
+		}
+
+		.table tbody tr:last-child td{
+			border-bottom: 4px rgb(172, 202, 214) ridge;
+		}
+
+		.table tbody tr:nth-child(even){
+			background-color: rgb(5, 8, 10) ;
+		}
+
+	</style>
 
 </head>
 
 <body>
 	<div class="topo">
 		<h1> Gabriela Souza </h1>
-		<p><i>Aprendendo a desenvolver</i></p>
+		<p><i>aprendendo a desenvolver</i></p>
 	</div>
 
 	<div class="corpo">
-	<h2>Links úteis</h2>
-<p style="font-family:'Arial'"><a href="https://www.cursoemvideo.com/cursos/" target="_blank"> Cursos - programação </a><br><br>
+		
+		<table class="table">
+			<thead>
+				<tr>
+					<th colspan="5" class="caption">Evolução</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Primeira semana</td>
+					<td><a href="https://i.imgur.com/4M3EePv.png" target="_blank">1</a></td>
+					<td><a href="pagina3.html" target="_blank">2</a></td>
+					<td colspan="2"><a href="pagina2.html" target="_blank">3</a></td>
 
-<table>
-	<caption>Evolução</caption>
-	<tr>
-		<td>Primeira semana</td>
-		<td><a href="https://i.imgur.com/4M3EePv.png" target="_blank">1</a></td>
-		<td><a href="pagina3.html">2</a></td>
-		<td><a href="pagina2.html">3</a></td>
-	</tr>
-	<tr>
-		<td>Segunda semana</td>
-		<td><a href="inicioCSS.html">1</a></td>
-		<td><a href="curriculo">2</a></td>
-		<td><a href="curriculo 2.html">3</a></td>
-		<td><a href="testandoimagens.html">4</a></td>
-	</tr>
-	<tr>
-		<td>Terceira semana</td>
-		<td><a href="./projeto css/projeto1index.html">1</a></td>
-		<td><a href="./projeto css/projeto2index.html">2*</a></td>
-		<td><a href="./projeto fashion/index.html">3</a></td>
-	</tr>
-	<tr>
-		<td>Quarta semana</td>
-		<td><a href="./tabelateste.html">1</a></td>
-		<td><a href="./formularioteste.html">2</a></td>
-		<td><a href="https://i.imgur.com/F8trH6Z.png" target="_blank">3</td>
-	</tr>
-</table>
+				</tr>
+				<tr>
+					<td>Segunda semana</td>
+					<td><a href="inicioCSS.html" target="_blank">1</a></td>
+					<td><a href="curriculo.html" target="_blank">2</a></td>
+					<td><a href="curriculo 2.html" target="_blank">3</a></td>
+					<td><a href="testandoimagens.html" target="_blank">4</a></td>
+				</tr>
+				<tr>
+					<td>Terceira semana</td>
+					<td><a href="./projeto css/projeto1index.html" target="_blank">1</a></td>
+					<td><a href="./projeto css/projeto2index.html" target="_blank">2*</a></td>
+					<td colspan="2"><a href="./projeto fashion/index.html" target="_blank">3</a></td>
+				</tr>
+				<tr>
+					<td>Quarta semana</td>
+					<td><a href="./tabelateste.html" target="_blank">1</a></td>
+					<td><a href="./formularioteste.html" target="_blank">2</a></td>
+					<td><a href="https://i.imgur.com/F8trH6Z.png" target="_blank">3</td>
+					<td><a href="./form.html" target="_blank">4</td>
+				</tr>
+				<tr>
+					<td>Quinta semana</td>
+					<td><a href="./projeto strata/index.html" target="_blank">1*</a></td>
+					<td>...</td>
+					<td><a href="#"></td>
+					<td><a href="#"></td>
+				</tr>
+			</tbody>
+		</table>
+		<br><br><br><br><br>
 
-</div>
+		<h2>Links úteis</h2>
+		<p style="font-family:'Arial'"><a href="https://www.cursoemvideo.com/cursos/" target="_blank"> Cursos -
+				programação </a>
+
+	</div>
+
 
 
 </body>
+
 </html>

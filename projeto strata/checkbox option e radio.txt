@@ -1,0 +1,13 @@
+<div class="row">
+<label><input type="checkbox" name="copia" value="copia">Envie-me uma cópia</label>
+<label><input type="checkbox" name="humano" value="humano">Sou um humano</label>
+</div>
+  <select name="selecionar">
+                            <option value="0" disabled>Selecione</option>
+                            <option value="1">HTML</option>
+                            <option value="2">CSS</option>
+                            <option value="3">Javascript</option>
+                        </select>
+                        <label><input type="radio" name="prioridade" value="baixa">Baixa prioridade</label>
+                        <label><input type="radio" name="prioridade" value="média">Média prioridade</label>
+                        <label><input type="radio" name="prioridade" value="alta">Alta prioridade</label>

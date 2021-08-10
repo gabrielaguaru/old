@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gabriela Souza">
+    <meta name="description" content="Portfolio de Gabriela Cruz de Souza">
+    <meta name="keywords" content="html5, css, javascript, junior, devjunior, desenvolvedora">
+    <title>Projeto Gabriela</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/css.css">
+    <script src="https://kit.fontawesome.com/a93fcd5ea2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="main-header">
+        <a href="https://www.linkedin.com/in/gabriela-souza-4538001b1/ " class="main-header-link" target="_blank"><img
+                src="./imagens/gabithumb3.jpg" alt="imagem da autora do site, Gabriela Souza"></a>
+        <h1 class="main-header-title">Olá! Me chamo <strong>Gabriela Souza</strong>,<br>
+            e aqui eu compartilho meu
+            mundo, trabalhos e projetos. </h1>
+
+        <ul class="main-header-icones">
+            <li><a href="https://www.linkedin.com/in/gabriela-souza-4538001b1/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/gabrielaguaru" target="_blank"><i class="fab fa-github-square"></i></a></li>
+            <li><a href="https://www.facebook.com/gabrielaguaru/" target="_blank"><i
+                        class="fab fa-facebook-square"></i></a></li>
+
+        </ul>
+
+    </header>
+
+    <main class="main-content">
+
+        <section class="main-content-section">
+            <h2>Um pouco mais sobre mim</h2>
+            <p>Cursei Biomedicina, trabalhei na área, fiz pós graduação e percebi que faltava algo... e o que faltava
+                era o que eu amava: desenvolver! Sou novata no mundo da tecnologia mas tenho muita vontade de aprender
+                coisas novas e evoluir o que já foi aprendido.</p>
+
+            <a href="https://gabrielaguaru.github.io" class="botao">Veja minha evolução</a>
+        </section>
+
+        <section class="main-content-section">
+
+            <h3>Trabalhos recentes</h3>
+
+            <div class="row">
+                <div class="col-2">
+                    <article class="recent-work">
+                        <a href="https://gabrielaguaru.github.io/projeto%20css/projeto2index.html" target="_blank">
+                            <img src="./imagens/marvel.jpg"
+                                alt="imagem de capa do meu primeiro projeto, sobre os vingadores">
+                        </a>
+                        <p class="recent-work-titulo">Projeto Vingadores</p>
+                        <p class="recent-work-subtitulo">Primeiro projeto que fiz com menos de 1 mês estudando FrontEnd.
+                            Muita
+                            diversão desenvolvendo essa página que une as coisas que gosto.</p>
+                    </article>
+
+                    <article class="recent-work">
+                        <a href="#"><img src="./imagens/02.jpg"
+                                alt="imagem de capa do meu terceiro projeto, desenvolverei em breve"></a>
+                        <p class="recent-work-titulo">Projeto n°3</p>
+                        <p class="recent-work-subtitulo">Terceiro projeto em breve.</p>
+                    </article>
+
+                </div>
+                <div class="col-2">
+
+                    <article class="recent-work">
+                        <a href="https://gabrielaguaru.github.io/projeto%20fashion/index.html" target="_blank">
+                            <img src="./imagens/fashion.jpg"
+                                alt="imagem de capa do meu segundo projeto, sobre uma loja de roupas">
+                        </a>
+                        <p class="recent-work-titulo">Projeto Fashion</p>
+                        <p class="recent-work-subtitulo">Segundo projeto mais simples, voltado a uma loja de roupas com
+                            puro
+                            minimalismo.</p>
+                    </article>
+
+                    <article class="recent-work">
+                        <a href="#"><img src="./imagens/05.jpg"
+                                alt="imagem de capa do meu quarto projeto, desenvolverei em breve"></a>
+                        <p class="recent-work-titulo">Projeto n°4</p>
+                        <p class="recent-work-subtitulo">Quarto projeto em breve.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-content-section">
+            <h3>Entre em contato</h3>
+            <div class="row">
+                <div class="col2-3">
+                    <form action="#" method="post">
+                        <div class="row">
+                            <div class="col-2">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" id="nome">
+                            </div>
+                            <div class="col-2">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                        </div>
+
+                        <label class="checkbox-line"><input type="checkbox" name="copia" value="copia">Envie-me uma
+                            cópia</label>
+                        <label class="checkbox-line"><input type="checkbox" name="humano" value="humano" required>Sou um humano</label>
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+
+                        <label class="radio-line"><input type="radio" name="prioridade" value="baixa">Baixa
+                            prioridade</label>
+                        <label class="radio-line"><input type="radio" name="prioridade" value="média">Média
+                            prioridade</label>
+                        <label class="radio-line"><input type="radio" name="prioridade" value="alta">Alta
+                            prioridade</label>
+
+                        <input type="submit" value="Enviar" class="botao botao-form">
+                    </form>
+                </div>
+
+                <div class="col1-3">
+                    <address>
+                        <p>
+                            <span><i class="fas fa-map-marker-alt"></i></span>
+                            Guarujá
+                        </p>
+
+                        <p>
+                            <span><i class="fas fa-mobile-alt"></i></span>
+                            (13) 99750-5360
+                        </p>
+
+                        <p>
+                            <span><i class="fas fa-envelope"></i></span>
+                            gabrielaguaru@yahoo.com.br
+                        </p>
+                    </address>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-content-section">
+            <h4>Tabela</h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td>100.000</td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>Item um</td>
+                        <td>Blablablabla</td>
+                        <td>29.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item dois</td>
+                        <td>Blablablabla</td>
+                        <td>39.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item três</td>
+                        <td>Blablablabla</td>
+                        <td>49.99</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section class="main-content-section">
+            <blockquote>
+                "As pessoas que evitam o fracasso, também evitam o sucesso" - <em>Robert Kiyosaki</em>.
+            </blockquote>
+
+        </section>
+
+
+
+    </main>
+
+    <footer class="main-footer">
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
